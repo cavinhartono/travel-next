@@ -7,6 +7,12 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.container {
+  position: relative;
+  width: var(--bx-full);
+  padding: 100px;
+}
+
 li {
   list-style-type: none;
 }

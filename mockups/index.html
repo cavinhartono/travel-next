@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/master.css" />
+    <link rel="stylesheet" href="/css/home.css" />
     <title>Homepage</title>
   </head>
   <body>
@@ -26,6 +27,32 @@
         </ul>
         <a href="#" class="btn btn-primary">Join</a>
       </header>
+      <div class="homepage flex center" style="flex-direction: column">
+        <img src="" class="w-full" />
+        <h1 class="title">
+          Discover Your <br />
+          Dream Destinations.
+        </h1>
+        <form class="form-homepage">
+          <label for="location">
+            Location:
+            <input type="text" id="location" class="w-full" />
+          </label>
+          <label for="date">
+            Date:
+            <input type="date" id="date" class="w-full" />
+          </label>
+          <label for="quest">
+            Quest:
+            <select id="quest">
+              <option value="">- Add</option>
+              <option value="">1</option>
+              <option value="">2</option>
+            </select>
+          </label>
+          <button class="btn btn-primary">Go</button>
+        </form>
+      </div>
     </div>
     <script src="/js/script.js"></script>
   </body>

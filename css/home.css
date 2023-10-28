@@ -1,0 +1,7 @@
+@import url("/css/master.css");
+
+.homepage {
+  height: 450px;
+  background: var(--black-400);
+  padding: var(--bx-200);
+}

@@ -1,0 +1,46 @@
+@import url("./styles.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.flex {
+  display: flex;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+body {
+  background: var(--white-50);
+  color: var(--black-950);
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 24px 100px;
+  z-index: 5;
+}

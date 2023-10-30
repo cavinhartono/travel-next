@@ -127,3 +127,13 @@ p {
 .list.active {
   color: var(--black-950);
 }
+
+input,
+select {
+  border: 1px solid var(--white-300);
+  outline: none;
+  background: transparent;
+  margin: calc(var(--bx-50) / 1.5) 0;
+  padding: calc(var(--bx-50) / 1.5);
+  border-radius: calc(var(--bx-50) / 2.5);
+}

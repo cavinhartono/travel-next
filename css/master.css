@@ -22,6 +22,12 @@ a {
   color: inherit;
 }
 
+img {
+  width: initial;
+  height: inherit;
+  object-fit: cover;
+}
+
 .flex {
   display: flex;
 }

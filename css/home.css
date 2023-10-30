@@ -25,10 +25,11 @@
 
 .form-homepage {
   width: 100vh;
-  background: var(--white-50);
   padding: var(--bx-200);
+  background: rgba(255, 255, 255, 0.75);
   border-radius: calc(var(--bx-50) / 1.5);
-  transform: translateY(100%);
   box-shadow: var(--shadow-50);
+  backdrop-filter: blur(90px);
+  transform: translateY(100%);
   z-index: 5;
 }
